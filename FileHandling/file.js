@@ -1,4 +1,7 @@
 const fs = require('fs')
+const os = require('os')
+
+console.log(os.cpus().length)
 
 //Synchronous creation
 // fs.writeFileSync("home.txt","This is a file created using sync write")
@@ -21,4 +24,5 @@ const fs = require('fs')
 
 // fs.appendFileSync("log.txt", `${Date.now()} Hey There\n`)
 
-fs.cpSync("./log.txt","./copy.txt")
+// fs.cpSync("./log.txt","./copy.txt")
+
