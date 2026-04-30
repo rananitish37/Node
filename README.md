@@ -112,3 +112,36 @@ So very simple strategy we already know how production works from taking a proje
 4. Testing: Now comes the testing part where we check the development whether the requirement given by the client is working properly or not which is developed by the developer.
 5. Deployment: Then comes the deployment part where devOps comes into picture who is responsible for deploying the project. In startups that is also done by developer sometimes.
 6. Maintenance: Then comes maintenance part where if any kind of requirement. comes or any change request is there then the whole cycle will be repeated.
+
+
+
+# Monolithic & Microservice
+**Dev Speed**: Development speed is better in micro-services compared to Monolithic as in micro-service different people are working in parallel which help development faster.
+
+**Code repo**: In monolithic they maintain single repo for all but in micro-service there are different repos for every service.
+
+**Scalability**:  Micro-service is more easy to scale as it has different repo so it can be scaled as required but in monolithic as the code base become bigger then it become difficult to scale.
+
+**Deployment**: Deployment can be easy in monolithic as it contains only one repo so we only need to deploy the main repo.
+
+**Tech stack:** In monolithic you need to stick with only one tech stack because everything in the repo is using one tech stack but in micro-service you can have different tech stack based on requirement.
+
+**Infra cost:** Infra cost can be more in micro service as there are multiple repo we need to manage deployment cost for each and also they are using different tech stack so which also increase the cost.
+
+**Complexity:** It depend as if we talk like in micro-service we need to maintained different tech stack then it may create complexity for some if they are not  able to manage their urls but when it comes to monolithic the code base is too large so that can be complex in terms of that.
+
+**Fault Isolation:**  We know it is micro-service which has hight fault isolation as if any service fails that will only affect that service not entire project so.
+
+**Testing:** Testing can be easy in micro-service as there are separate repo so they can test codes one by one.
+
+**Ownership:**
+
+**Maintenance:** 
+
+**Revamps:** **Revamps** means **to improve, redesign, or update something to make it better or more modern**.
+It is easy in micro-service if you want to revamps the particular services it is easy here
+
+**Debugging:**
+
+**Dev Experience:**
+
